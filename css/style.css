@@ -51,6 +51,8 @@
     color: black;    
 }
 
+/*#region MENU */
+
 [class^=menu]{
     list-style-type: none;
     gap: 2rem;
@@ -69,4 +71,10 @@
 .start-btn a{
     color: white;
 }
-/*#enredgion NAVBAR*/
+
+/*#endregion MENU */
+
+/*#endregion NAVBAR*/
+
+
+/*SECTION */
