@@ -82,7 +82,7 @@
 
 
 /*SECTION */
-.hero> section{
+.jumbo> section{
     background-color: var(--bg-hero-color);
     min-height: 500px;
 }
@@ -91,6 +91,8 @@ section > h1 {
     font-weight: 900;
 }
 .jumbo-image {
+    display: flex;
+    position: absolute;
     max-width: 30%;
     max-height: 100%;
 }
