@@ -39,11 +39,7 @@
 .navbar{
     background-color: white;
     justify-content: space-between;
-    position: sticky;
-    .logo{
-        align-items: flex-start;
-    }
-    
+    position: sticky;   
 }
 .navbar a{
     text-decoration: none;
@@ -52,5 +48,6 @@
 }
 [class^=menu]{
     list-style-type: none;
+    gap: 2rem;
 }
 /*#enredgion NAVBAR*/
