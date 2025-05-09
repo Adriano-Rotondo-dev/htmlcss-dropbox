@@ -19,8 +19,8 @@
     border: 1px dashed black;
 }
 .container{
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1900px;
     margin:auto;
 }
 
@@ -40,14 +40,33 @@
     background-color: white;
     justify-content: space-between;
     position: sticky;   
+    margin:1rem 0;
+    align-items: center;
+    .logo{
+        margin-bottom: 10px;
+    }
 }
 .navbar a{
     text-decoration: none;
-    color: black;
-    
+    color: black;    
 }
+
 [class^=menu]{
     list-style-type: none;
     gap: 2rem;
+}
+.menu-left> li{
+    margin-top:10px;
+}
+.menu-right> li>button{
+    background-color: var(--bg-button-color);
+    border:1px solid var(--bg-button-color);
+    padding: 3px 10px;
+}
+.menu-right{
+    align-items: center;
+}
+.start-btn a{
+    color: white;
 }
 /*#enredgion NAVBAR*/
