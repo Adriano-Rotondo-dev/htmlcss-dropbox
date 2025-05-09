@@ -11,12 +11,13 @@
 .d-flex{
     display: flex;
 }
-
+.debug{
+    border: 1px dashed black;
+}
 .container{
     width: 80%;
     max-width: 1200px;
     margin:auto;
-    border: 1px dashed black;
 }
 
 .row{
