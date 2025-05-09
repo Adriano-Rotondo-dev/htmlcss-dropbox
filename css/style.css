@@ -1,0 +1,30 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utils*/
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+    border: 1px dashed black;
+}
+
+.row{
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+.col{
+    width: auto;
+    flex-basis: auto;
+    padding: 1rem;
+}
