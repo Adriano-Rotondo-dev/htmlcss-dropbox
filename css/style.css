@@ -7,7 +7,11 @@
 }
 
 /*utils*/
-
+:root{
+    --bg-hero-color:#b4d0e6;
+    --bg-button-color: #0061fe;
+    --bg-footer-color: #000000;
+}
 .d-flex{
     display: flex;
 }
