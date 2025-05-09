@@ -12,16 +12,16 @@
     --bg-button-color: #0061fe;
     --bg-footer-color: #000000;
 }
+
 .d-flex{
     display: flex;
 }
-.debug{
-    border: 1px dashed black;
-}
+
 .container{
     width: 100%;
     max-width: 1900px;
-    margin:auto;
+    margin:auto; 
+    border: 1px dashed black;
 }
 
 .row{
