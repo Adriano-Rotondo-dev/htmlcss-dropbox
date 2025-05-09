@@ -88,3 +88,12 @@ section > h1 {
 .hero-image {
     max-width: 100%;
 }
+.free-trial{
+    background-color: var(--bg-button-color);
+    border:1px solid var(--bg-button-color);
+    padding: 3px 10px;
+}
+.free-trial a{
+    text-decoration: none;
+    color: white;
+}
