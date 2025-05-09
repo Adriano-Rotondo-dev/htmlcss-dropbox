@@ -21,7 +21,7 @@
 
 .container{
     width: 100%;
-    max-width: 1900px;
+    max-width: 1200px;
     margin:auto; 
     border: 1px dashed black;
     max-height: 200px;
@@ -38,16 +38,19 @@
 }
 
 /*#region NAVBAR*/
-
-.navbar{
+header{
     background-color: white;
-    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
     position: sticky;   
-    margin:1rem 0;
+    z-index: 3;
+    
+}
+.navbar{
+    justify-content: space-between;  
     align-items: center;
-    .logo{
-        margin-bottom: 5px;
-        margin-top:5px;
+    .nav-logo{
+        margin-top:2.1rem;
     }
 }
 .navbar a{
@@ -95,9 +98,7 @@ section > h1 {
     display: flex;
     max-width: 70%;
     max-height: 100%;
-    position: relative;
-    left: 12rem;
-    bottom: 2rem;
+    
 }
 .jumbo-text{
     display: flex;
@@ -114,3 +115,4 @@ section > h1 {
 }
 
 
+/* ROW AND COLUMNS */
