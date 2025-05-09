@@ -33,3 +33,24 @@
     flex-basis: auto;
     padding: 1rem;
 }
+
+/*#region NAVBAR*/
+
+.navbar{
+    background-color: white;
+    justify-content: space-between;
+    position: sticky;
+    .logo{
+        align-items: flex-start;
+    }
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+}
+[class^=menu]{
+    list-style-type: none;
+}
+/*#enredgion NAVBAR*/
