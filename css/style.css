@@ -131,6 +131,12 @@ section{
     margin:30px 0;
 }
 
+.team-offer{
+    align-items: flex-start;
+}
+.enterprise{
+    min-height: 10rem;
+}
 /* ROW AND COLUMNS */
 
 .row{
@@ -174,6 +180,9 @@ section{
 }
 .client-size{
     padding:0.5rem;    
+}
+.team-size{
+    padding:0.5rem;
 }
 
 
