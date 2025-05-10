@@ -137,10 +137,12 @@ section{
 .col-3{
     width: 25%;
     padding:1rem;
+    flex-basis: auto;
 }
 .col-4{
     width: 33.33%;
     padding: 1rem;
+    flex-basis: auto;
 }
 .col-8{
     width: 66%;
