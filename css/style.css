@@ -163,7 +163,15 @@ section{
     width: 100%;
     padding:1rem;
 }
+.col-12 button{
+     color: white;
+    background-color: var(--bg-button-color);
+    border:1px solid var(--bg-button-color);
+    padding: 10px;
+    margin: 0 20px;
+    width: 15rem;
 
+}
 .client-size{
     padding:0.5rem;    
 }
