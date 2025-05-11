@@ -152,7 +152,7 @@ section{
     display: block;
     left:60rem;
 }
-.enterprise span{
+.enterprise-descriptor{
     margin-top: 3rem;
 }
 
@@ -254,6 +254,7 @@ footer{
     background-color: var(--bg-footer-color);
     color: white;
     padding:1rem 3rem;    
+    max-width: none;
 }
 footer ul{
     align-content: space-between;
@@ -264,5 +265,16 @@ footer ul{
 footer li{
     display: flex;
     margin: 0 3rem;
+}
+.other{
+    margin-top: 3rem;
+}
+.link-sector{
+    font-size: large;
+    font-weight: 600;
+}
+.other-links{
+    font-size: small;
+    font-weight: 300;
 }
 /*#endregion Footer*/
