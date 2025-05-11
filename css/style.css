@@ -188,7 +188,9 @@ section{
 .team-size{
     padding:0.5rem;
 }
-
+.partnership{
+    margin:15rem 0;
+}
 .find-partner{    
     background-color: var(--bg-button-color);
     border:1px solid var(--bg-button-color);
