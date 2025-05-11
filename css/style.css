@@ -25,7 +25,7 @@ li{
     width: 100%;
     max-width: 1200px;
     margin:auto; 
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
 }
 
 .col{
