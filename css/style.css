@@ -198,6 +198,13 @@ section{
     text-decoration: none;
     color: white;
 }
+.operation-boxes{
+    display: flex;
+    flex-basis: auto;
+}
+.operations-boxes{
+    min-height: 1rem;
+}
 /*Footer*/
 footer{
     background-color: var(--bg-footer-color);
