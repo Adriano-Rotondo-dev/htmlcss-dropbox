@@ -112,6 +112,7 @@ section{
     
 }
 /*#endregion Jumbotron*/
+
 .downarrow{
     position: relative;
     max-width: fit-content;
@@ -151,6 +152,7 @@ section{
 }
 .team-size{
     padding:0.5rem;
+    max-width:inherit;
 }
 .partnership{
     margin-top:10rem;
@@ -181,7 +183,6 @@ section{
 .aside{
     min-height:10rem ;
 }
-
 /*#region ROWS AND COLUMNS */
 
 .row{
@@ -228,6 +229,7 @@ section{
 
 }
 /*#endregion ROWS AND COLUMNS*/
+
 /*#region Footer*/
 footer{
     background-color: var(--bg-footer-color);
