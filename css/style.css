@@ -189,7 +189,8 @@ section{
     padding:0.5rem;
 }
 .partnership{
-    margin:15rem 0;
+    margin-top:12rem;
+    margin-bottom:8rem;
 }
 .find-partner{    
     background-color: var(--bg-button-color);
