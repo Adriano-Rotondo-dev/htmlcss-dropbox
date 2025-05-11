@@ -205,6 +205,10 @@ section{
 .operations-boxes{
     min-height: 1rem;
 }
+.aside{
+   min-height:10rem ;
+}
+
 /*Footer*/
 footer{
     background-color: var(--bg-footer-color);
