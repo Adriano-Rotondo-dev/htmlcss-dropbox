@@ -12,6 +12,7 @@
     --bg-hero-color:#b4d0e6;
     --bg-button-color: #0061fe;
     --bg-footer-color: #000000;
+    --light-grey:  #d3d3d3;
 }
 
 li{
@@ -34,7 +35,7 @@ li{
     padding: 1rem;
 }
 .business-border{
-    border: 1px solid lightgrey;
+    border: 1px solid var(--light-grey);
 }
 /*#region NAVBAR*/
 header{
@@ -160,14 +161,14 @@ section{
     padding:0.5rem;  
     margin:0 auto;  
     border: transparent; /*hide card border on element*/
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--light-grey);
 }
 .team-size{
     padding:0.5rem;
     max-width:inherit;
     margin: 0 auto;
     border: transparent; /*hide card border on element*/
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--light-grey);
 }
 .partnership{
    margin-bottom: 5rem;
@@ -275,5 +276,8 @@ footer li{
 .other-links{
     font-size: small;
     font-weight: 300;
+}
+.language{
+    color: var(--light-grey);
 }
 /*#endregion Footer*/
