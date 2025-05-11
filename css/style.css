@@ -43,6 +43,7 @@ header{
     line-height: 80px;
     position: sticky;   
     top: 0;
+    z-index: 3;
     
 }
 .navbar{
@@ -83,11 +84,18 @@ header{
 /*#endregion NAVBAR*/
 
 
-/*SECTION */
+/*SECTION contents*/
 section{
     min-height: 500px;
     text-align: center;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    min-height: 12rem;
+}
+/*#region Jumbotron*/
 .jumbotron h1 {
     font-size:3rem;
     font-weight: 900;
@@ -103,19 +111,16 @@ section{
     max-height: 100%;
     
 }
+/*#endregion Jumbotron*/
 .downarrow{
     position: relative;
     max-width: fit-content;
     font-size: xx-large;}
 
 
-.card{
-    display: flex;
-    flex-direction: column;
-    gap:1.5rem;
-    min-height: 12rem;
+.business-plan{
+    min-height: 48.7rem;
 }
-
 .free-trial{
     background-color: var(--bg-button-color);
     border:1px solid var(--bg-button-color);
@@ -133,10 +138,51 @@ section{
 .team-offer{
     align-items: flex-start;
 }
-.enterprise{
-    min-height: 10rem;
+.enterprise-big{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
 }
-/* ROW AND COLUMNS */
+.client-size{
+    padding:0.5rem;  
+    margin:0 auto;  
+    border: transparent; /*hide card border on element*/
+    border-bottom: 1px solid lightgray;
+}
+.team-size{
+    padding:0.5rem;
+}
+.partnership{
+    margin-top:10rem;
+    margin-bottom:8rem;
+}
+.find-partner{    
+    background-color: var(--bg-button-color);
+    border:1px solid var(--bg-button-color);
+    padding: 10px;
+    margin: 0 20px;    
+}
+.find-partner a{
+    text-decoration: none;
+    color: white;
+}
+.operations-title{
+    padding:10px;
+    text-align: justify;
+    font-size:xx-large;
+}
+.operations-boxes {
+    text-align:justify;
+    padding: 1rem;
+    margin: 0.5rem;
+    max-height:25rem;
+}
+
+.aside{
+    min-height:10rem ;
+}
+
+/*#region ROWS AND COLUMNS */
 
 .row{
     display: flex;
@@ -146,9 +192,7 @@ section{
 }
 .col-3{
     width: 25%;
-    flex-basis: auto;
-    min-height: 40rem;
-    
+    flex-basis: auto;    
 }
 .col-3 button{
     color: white;
@@ -172,6 +216,7 @@ section{
 .col-12{
     width: 100%;
     padding:1rem;
+    margin:5rem 0;
 }
 .col-12 button{
      color: white;
@@ -182,43 +227,8 @@ section{
     width: 15rem;
 
 }
-.client-size{
-    padding:0.5rem;    
-}
-.team-size{
-    padding:0.5rem;
-}
-.partnership{
-    margin-top:12rem;
-    margin-bottom:8rem;
-}
-.find-partner{    
-    background-color: var(--bg-button-color);
-    border:1px solid var(--bg-button-color);
-    padding: 10px;
-    margin: 0 20px;    
-}
-.find-partner a{
-    text-decoration: none;
-    color: white;
-}
-
-.operations-boxes {
-    text-align:justify;
-    padding: 1rem;
-    margin: 0.5rem;
-    min-height:max-content;
-}
-
-.operations-boxes img {
-    max-width: 100%;
-}
-
-.aside{
-   min-height:10rem ;
-}
-
-/*Footer*/
+/*#endregion ROWS AND COLUMNS*/
+/*#region Footer*/
 footer{
     background-color: var(--bg-footer-color);
     color: white;
@@ -235,3 +245,4 @@ footer li{
     display: flex;
     margin: 0 3rem;
 }
+/*#endregion Footer*/
