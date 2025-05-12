@@ -135,7 +135,7 @@ section{
 }
 
 .business-plan{
-    min-height: 56rem;
+    min-height: 59rem;
     padding: 1rem;
     text-align: initial;
 }
@@ -163,6 +163,13 @@ section{
 }
 .link-buy-now{
     margin-left: 1rem;
+}
+.box-separator {
+    border:none;
+    width: 3rem;
+    min-height:3px;
+    background-color: var(--light-grey);
+    margin:0.5rem;
 }
 .details li{
     margin:2rem 1.5rem;
