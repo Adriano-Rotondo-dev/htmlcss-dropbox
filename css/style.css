@@ -152,7 +152,9 @@ section{
     text-decoration: none;
     color: white;
 }
-
+.link-buy-now{
+    margin-left: 1rem;
+}
 .details li{
     margin:2rem 1.5rem;
 }
