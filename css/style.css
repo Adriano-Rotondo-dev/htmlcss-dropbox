@@ -13,6 +13,7 @@
     --bg-button-color: #0061fe;
     --bg-footer-color: #000000;
     --light-grey:  #d3d3d3;
+    --light-blue: #74C0FC;
 }
 i{
     padding: 0 5px;
@@ -153,7 +154,9 @@ section{
     margin:2rem 1.5rem;
     text-align: center;
 }
-
+.fa-check{
+    color:var(--light-blue)
+}
 .team-offer{
     align-items: flex-start;
 }
