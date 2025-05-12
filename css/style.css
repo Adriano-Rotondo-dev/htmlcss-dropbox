@@ -103,6 +103,9 @@ section{
 .jumbotron h1 {
     font-size:3rem;
     font-weight: 900;
+    max-width: 56.25rem;
+    text-align: justify;
+    padding-top: 2rem;
 }
 .jumbotron{
     background-color: var(--bg-hero-color);
