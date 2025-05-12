@@ -149,11 +149,9 @@ section{
 }
 .radio-btn{
     margin:1rem 0 0 2rem;
+    gap:2rem;
 }
-#radio{
-    color:var(--light-blue);
-    gap:20px;
-}
+
 
 .card-top > * {
     padding:5px;
