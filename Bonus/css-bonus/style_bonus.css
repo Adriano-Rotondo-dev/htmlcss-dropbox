@@ -99,41 +99,12 @@ section{
     gap:1.5rem;
     min-height: 12rem;
 }
-/*#region Jumbotron*/
-.jumbotron h1 {
-    font-size:3rem;
-    font-weight: 900;
-    max-width: 56.25rem;
-    text-align: justify;
-    padding-top: 2rem;
+/*#region hero*/
+.hero{
+    background-image: url(../img_bonus/dropbox_cloud.png);
 }
-.jumbotron{
-    background-color: var(--bg-hero-color);
-    min-height: 450px;
-    margin:1rem;
-}
-.jumbo-image {
-    max-width: 80%;
-    max-height: 100%;
-    position: relative;
-    top:4rem;
-}
-.jumbo-text{
-    text-align: justify;
-    margin-left: 2rem;
-    position: relative;
-    top:4rem;
-}
-.jumbotron button{
-    margin:1rem 0;
-}
-.downarrow{
-    position: relative;
-    max-width: fit-content;
-    font-size: xx-large;
-    right:10rem;
-    top:8rem;
-    color: black;
+.hero img{
+    max-width: 100%;
 }
 
 /*#endregion Jumbotron*/
