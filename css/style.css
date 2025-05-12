@@ -296,7 +296,7 @@ section{
 footer{
     background-color: var(--bg-footer-color);
     color: white;
-    padding:1rem 3rem;    
+    padding:1rem 3rem;   
 }
 footer ul{
     flex-direction: column;
@@ -306,6 +306,8 @@ footer ul{
 footer li{
     display: flex;
     margin: 0 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .other{
     margin-top: 3rem;
@@ -322,6 +324,6 @@ footer li{
     display: block;
     color: var(--light-grey);
     max-height: max-content;
-    max-width: max-content;    
+    max-width: max-content;        
 }
 /*#endregion Footer*/
