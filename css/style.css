@@ -140,7 +140,7 @@ section{
     text-align: initial;
 }
 .business-plan-h2{
-    margin-top: 5rem;
+    margin: 5rem 0 0 2rem;
 }
 .card-top > * {
     padding:5px;
@@ -322,7 +322,7 @@ footer li{
 .language{
     color: var(--light-grey);
     position: relative;
-    top: 15rem;
-    right: 65rem;
+    top: 20rem;
+    right: 78rem;
 }
 /*#endregion Footer*/
