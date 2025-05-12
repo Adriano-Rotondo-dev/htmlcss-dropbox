@@ -145,9 +145,13 @@ section{
 .business-plan-h2{
     margin: 5rem 0 0 2rem;
 }
-
+.radio-btn{
+    gap:2rem;
+    margin:1rem 0 0 2rem;
+}
 .radio{
-    color:var(--light-blue)
+    color:var(--light-blue);
+    margin: 1rem;
 }
 
 .card-top > * {
