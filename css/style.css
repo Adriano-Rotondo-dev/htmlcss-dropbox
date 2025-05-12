@@ -127,8 +127,6 @@ section{
 .jumbotron button{
     margin:1rem 0;
 }
-/*#endregion Jumbotron*/
-
 .downarrow{
     position: relative;
     max-width: fit-content;
@@ -136,6 +134,8 @@ section{
     right:10rem;
     top:8rem;
 }
+/*#endregion Jumbotron*/
+
 
 .business-plan{
     min-height: 59rem;
@@ -145,6 +145,11 @@ section{
 .business-plan-h2{
     margin: 5rem 0 0 2rem;
 }
+
+.radio{
+    color:var(--light-blue)
+}
+
 .card-top > * {
     padding:5px;
 }
