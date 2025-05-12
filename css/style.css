@@ -146,9 +146,8 @@ section{
     margin: 5rem 0 0 2rem;
 }
 .radio-btn{
+    gap:2rem;
     margin:1rem 0 0 2rem;
-}
-#radio{
 }
 .radio{
     color:var(--light-blue);
