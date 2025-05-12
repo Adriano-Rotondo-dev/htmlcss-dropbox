@@ -317,7 +317,7 @@ footer ul{
 footer li{
     display: flex;
     margin: 0 3rem;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 .other{
