@@ -134,12 +134,14 @@ section{
     top:8rem;
 }
 
-
 .business-plan{
     min-height: 48.7rem;
     padding: 1rem;
     margin-top:1rem;
     text-align: initial;
+}
+.business-plan-h2{
+    margin-top: 5rem;
 }
 .free-trial{
     background-color: var(--bg-button-color);
@@ -259,7 +261,7 @@ section{
 }
 .col-12{
     width: 100%;
-    margin:5rem 0;
+    margin:3rem 0;
 }
 .col-12 button{
      color: white;
@@ -271,7 +273,6 @@ section{
 
 }
 /*#endregion ROWS AND COLUMNS*/
-
 
 /*#region Footer*/
 footer{
